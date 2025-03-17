@@ -28,7 +28,7 @@ def main(page : ft.Page):
         page.update()
 
     def volver(e):
-        page.go("/formulario")
+        page.go("/formularios")
 
     #OBJETOS
     nombre_tf = ft.TextField(label="Nombre", width=300)
@@ -50,7 +50,7 @@ def main(page : ft.Page):
             nombre_tf,
             buscar_btn,
             tabla,
-
+            volver_btn,
         ]
     )
 
