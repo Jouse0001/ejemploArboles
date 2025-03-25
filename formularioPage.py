@@ -1,5 +1,4 @@
 import datetime
-
 import ddbbErci
 import flet as ft
 
@@ -16,7 +15,7 @@ def main(page : ft.Page):
         page.update()
 
     def crear_arbol(e):
-        nombre  =nombre_tf.value
+        nombre  = nombre_tf.value
         tipo =tipos_drop.value
         altura = altura_tf.value
         fecha = date_picker.value

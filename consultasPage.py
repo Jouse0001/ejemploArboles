@@ -22,6 +22,7 @@ def main(page : ft.Page):
                 ft.DataCell(ft.Text(str(fila[3]))), #ALTURA
                 ft.DataCell(ft.Text(str(fila[4]))), #FECHA
             ]))
+
     def buscar_arboles(e):
         lista_arboles = ddbbErci.buscar_arboles_por_nombre(nombre_tf.value)
         cargar_tabla(lista_arboles)
