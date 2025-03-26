@@ -7,7 +7,7 @@ def connect():
         user="postgres",
         password="1234",
         host="192.168.149.128",
-        port="5433"
+        port="5432"
     )
     return conn
 
